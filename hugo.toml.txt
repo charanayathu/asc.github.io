@@ -1,0 +1,18 @@
+baseURL = 'https://yourdomain.com/'
+languageCode = 'en-us'
+title = 'My Portfolio & Blog'
+theme = 'PaperMod'
+
+[params.homeInfoParams]
+  Title = "Hi, I'm Your Name 👋"
+  Content = "Welcome to my portfolio and learning blog. I write about my career, projects, and personal learnings."
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  name = "Portfolio"
+  url = "/portfolio/"
+  weight = 20

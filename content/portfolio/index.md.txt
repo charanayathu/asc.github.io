@@ -1,0 +1,13 @@
+---
+title: "My Portfolio"
+date: 2026-08-21
+draft: false
+---
+
+# About Me
+
+Welcome to my portfolio! 
+
+### Projects & Career
+* **Project 1:** Description of what you built or accomplished.
+* **Contact:** You can reach out to me via email or LinkedIn.
