@@ -1,7 +1,8 @@
 baseURL = 'https://charaninfra.xyz/'
 languageCode = 'en-us'
 title = 'My Portfolio & Blog'
-theme = 'PaperMod/hugo-PaperMod-master'
+theme = 'PaperMod'
+
 
 
 [params.homeInfoParams]
