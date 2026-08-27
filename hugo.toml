@@ -19,9 +19,3 @@ publishDir = "public"
   name = "Portfolio"
   url = "/portfolio/"
   weight = 20
-
-  [outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML"]
-  section = ["HTML", "RSS"]
-
