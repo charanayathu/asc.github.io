@@ -43,7 +43,7 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-
+       
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -52,7 +52,8 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --theme PaperMod \
+            --baseURL "https://charaninfra.xyz/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
